@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 address {
     font-style: normal;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
