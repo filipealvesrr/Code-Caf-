@@ -29,7 +29,7 @@ ul li {
 }
 
 .banner {
-    background-image: url(./assets/images/painel.jpg);
+    background-image: url(../images/painel.jpg);
     background-size: cover;
     width: 100%;
     height: 630px;
@@ -119,7 +119,7 @@ ul li {
 }
 
 .contato {
-    background-image: url(./assets/images/fundo-contato.jpg);
+    background-image: url(../images/fundo-contato.jpg);
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -158,7 +158,7 @@ ul li {
 }
 
 footer {
-    background-image: url(./assets/images/fundo-rodape.jpg);
+    background-image: url(../images/fundo-rodape.jpg);
     background-size: cover;
     width: 100%;
     height: 210px;
