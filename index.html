@@ -11,12 +11,12 @@
     <title>Code Café</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="./src/images/logo.jpg" alt="Logomarca Code Café">
-            </a>
-        </div>
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            <h1>Code Café</h1>
+        </a>
+
         <nav class="menu">
             <ul>
                 <li><a href="#quem-somos" class="links">Quem somos</a></li>
@@ -28,11 +28,13 @@
 
     <main>
         <section class="banner">
-            <h1>Aqui o café é só o começo</h1>
+            <h2>Aqui o café é só o começo</h2>
         </section>
-        <section class="quem-somos">
-            <img src="./src/images/logo-secoes.png" alt="" class="logo-secoes">
-            <h2 id="quem-somos">QUEM SOMOS</h2>
+        <section class="secao-com-texto" id="quem-somos">
+            <header>
+                <img src="./src/images/logo-secoes.png" alt="" class="logo-secoes">
+                <h2>Quem Somos</h2>
+            </header>
             <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at praesentium commodi dolor totam exercitationem neque enim maxime quod? Quos laudantium quibusdam, illum reprehenderit magnam esse reiciendis repellendus fugit mollitia?</p>
         </section>
         <section class="ladrilhos">
@@ -49,11 +51,16 @@
             </div>
 
         </section>
-        <section class="onde-estamos">
-            <img src="./src/images/logo-secoes.png" alt="" class="logo-secoes">
-            <h2 id="onde-estamos">ONDE ESTAMOS</h2>
-            <p class="endereco">Avenida Brigadeiro Faria Lima, 444</p>
-            <p class="estado">São Paulo</p>
+        <section class="secao-com-texto onde-estamos" id="onde-estamos">
+            <header>
+                <img src="./src/images/logo-secoes.png" alt="" class="logo-secoes">
+                <h2>Onde Estamos</h2>
+            </header>
+            <p>
+                Avenida Brigadeiro Faria Lima, 444
+                São Paulo
+            </p>
+            
         </section>
         <section class="contato" id="contato">
             <!-- <img src="./src/images/fundo-contato.jpg" alt="" class="img-contato"> -->
@@ -82,7 +89,7 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <p class="copy">© 2022 Code Café</p>
+        <div class="copy">© 2022 Code Café</div>
         <div class="redes">
             <a href="https://www.facebook.com" target="_blank">
                 <img src="./src/images/face.png" alt="Link para o site do Facebook">
