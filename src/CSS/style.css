@@ -68,6 +68,8 @@ body {
 .secao-com-texto {
     padding: 153px;
     text-align: center;
+    /* Esse Clear é necessário para ele não ficar apregado nas div's com imagens 
+    no float: left, para os elementos ganharem tamanho. */
     clear: both;
 }
 
@@ -155,7 +157,7 @@ body {
     width: 100%;
     position: relative;
     padding: 35px 30px;
-    /* Caso fique um pequeno espaço em branco, com usar essa propriedade */
+    /* Caso fique um pequeno espaço em branco, usar essa propriedade */
     background-size: cover;
 }
 
